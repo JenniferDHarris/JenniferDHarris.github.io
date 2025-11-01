@@ -19,13 +19,17 @@ header {
   margin: 0 auto;
 }
 
+
 .card {
-  background: #ea2d7c;
+.card.blue { background: #e3f2fd; }   /* soft blue */
+.card.beige { background: #fff8e1; }  /* light beige */
+.card.green { background: #e8f5e9; }  /* pale green */
+
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   text-decoration: none;
-  color: #ea2d7c;
+  color: inherit;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
